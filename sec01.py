@@ -33,3 +33,9 @@ li1.append(3)
 print(li1.count(3))
 print(type(li1))
 print(type(li1[0]))
+
+me = 10
+print(id(me))
+
+me += 1
+print(id(me))
