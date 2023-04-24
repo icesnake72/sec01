@@ -34,8 +34,27 @@ print(li1.count(3))
 print(type(li1))
 print(type(li1[0]))
 
+dic = {'a':'apple'}
+print(dic)
+
+dic['b'] = 'banana'
+print(dic)
+
+dic.setdefault('c', 'cocktail')
+print(dic)
+
+dic['c'] = 'cacao'
+print(dic)
+
+dic.update(c='cherry')
+print(dic)
+
+dic.pop('c')
+print(dic)
+
 me = 10
 print(id(me))
 
 me += 1
 print(id(me))
+
