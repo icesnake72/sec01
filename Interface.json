@@ -1,0 +1,16 @@
+{
+  "harry the button": {
+      "type": "button",
+      "position": [250,120],
+      "size": [200,200],
+      "background_color": [100,0,0],
+      "contents": {
+        "jonathan the label": {
+            "type": "label",
+            "position": [260,150],
+            "font_size": 30,
+            "auto_size": true
+        }
+      }
+  } 
+}

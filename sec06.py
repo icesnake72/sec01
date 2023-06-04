@@ -22,3 +22,5 @@ for item in range(5):
 
 for t in threads:
   t.join()
+  
+  
